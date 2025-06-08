@@ -26,11 +26,11 @@ async function resumirComGemini(texto) {
 }
 
 async function buscarNoticias() {
-  const feeds = [
-    "https://www.espn.com.br/rss/clubes/ceara",
-    "https://ge.globo.com/rss/ultimas/ceara/",
-    "https://www.opovo.com.br/rss/esportes/ceara/"
-  ];
+const feeds = [
+  'https://ge.globo.com/rss/ceara/',
+  'https://www.opovo.com.br/rss/ceara-sc.xml',
+  'https://diariodonordeste.verdesmares.com.br/rss/esportes/futebol/times/ceara'
+];
 
   const todasNoticias = [];
 
